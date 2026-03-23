@@ -1,0 +1,12 @@
+ansible_user: ec2-user
+ansible_password: DevOps321
+MONGODB_HOST: mongodb-{{ env }}.samala.online
+REDIS_HOST: redis-{{ env }}.samala.online
+MYSQL_HOST: mysql-{{ env }}.samala.online
+RABBITMQ_HOST: rabbitmq-{{ env }}.samala.online
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.samala.online
+USER_HOST: user.backend-alb-{{ env }}.samala.online
+CART_HOST: cart.backend-alb-{{ env }}.samala.online
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.samala.online
+PAYMENT_HOST: payment.backend-alb-{{ env }}.samala.online
+app_version: v3
